@@ -44,11 +44,10 @@ Bloom.Mouse                            = Bloom.Client.GetMouse(Bloom.Client)
 Bloom.Random                           = Random.new()
 Bloom.Method                           = request
 
-local Repository												= "https://raw.githubusercontent.com/fatalespion/Bloom/refs/heads/main/"
-
-local Library 													= loadstring(game:HttpGet(Repository .. "Library.lua"))()
-local ThemeManager 												= loadstring(game:HttpGet(Repository .. "ThemeManager.lua"))()
-local SaveManager 												= loadstring(game:HttpGet(Repository .. "SaveManager.lua"))()
+local repo = "https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/uilib/"
+local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
+local ThemeManager = loadstring(game:HttpGet(repo .. "ThemeManager.lua"))()
+local SaveManager = loadstring(game:HttpGet(repo .. "SaveManager.lua"))()
 
 local HttpService = game:GetService("HttpService")
 
