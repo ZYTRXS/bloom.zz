@@ -1,11 +1,10 @@
 -- // Clear
 if Bloom.Functions.CleanUp then Bloom.Functions.CleanUp() end
 
-local Repository												= "https://raw.githubusercontent.com/fatalespion/Fondra/refs/heads/main/"
-
-local Library 													= loadstring(Bloom.Functions.SecureGet(Repository .. "Library.lua"))()
-local ThemeManager 												= loadstring(Bloom.Functions.SecureGet(Repository .. "ThemeManager.lua"))()
-local SaveManager 												= loadstring(Bloom.Functions.SecureGet(Repository .. "SaveManager.lua"))()
+local repo = "https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/uilib/"
+local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
+local ThemeManager = loadstring(game:HttpGet(repo .. "ThemeManager.lua"))()
+local SaveManager = loadstring(game:HttpGet(repo .. "SaveManager.lua"))()
 
 do
 	Bloom.Data.FOV                                             = Drawing.new("Circle")
