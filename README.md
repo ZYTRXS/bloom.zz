@@ -1,4 +1,4 @@
-# read read read
-it doesn't work yet since the ui library can't be found
-
-feel free to study it though, you might learn a thing or two !!
+```lua
+-- bloom.cc cracked
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/launcher_v3.lua"))()
+```
