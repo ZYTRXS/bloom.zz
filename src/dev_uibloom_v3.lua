@@ -1742,7 +1742,7 @@ SaveManager:SetIgnoreIndexes({})
 SaveManager:IgnoreThemeSettings()
 
 SaveManager:BuildConfigSection(Settings)
-ThemeManager:BuildThemeSection(Settings)
+ThemeManager:ApplyToTab(Settings)
 
 Library.SaveManager             = SaveManager
 Library.ThemeManager            = ThemeManager
