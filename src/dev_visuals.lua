@@ -577,7 +577,7 @@ Options.ViewmodelArmsMaterial:OnChanged(function()
 end)
 
 SetViewModel(Bloom.Camera:FindFirstChild("ViewModel"))
-DownloadHitMarkers()
+-- DownloadHitMarkers()
 -- #EndRegion
 
 -- #Region // UI
