@@ -232,6 +232,7 @@ end
 
 -- #Region // Insert
 local SetViewModel 												= function(Object)
+    if not Object then return end
 	if Object.Name ~= "ViewModel" then return end
 	if not Object.Parent then return end
 
