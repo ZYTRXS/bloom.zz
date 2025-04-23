@@ -52,7 +52,7 @@ local SaveManager = loadstring(game:HttpGet(repo .. "SaveManager.lua"))()
 local HttpService = game:GetService("HttpService")
 
 local function LoadScript()
-	local launcher = "https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/loader_v4.lua"
+	local launcher = "https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/loader_v5.lua"
 	loadstring((syn and syn.request or request)({
 		Url=launcher,
 		Method="GET"
