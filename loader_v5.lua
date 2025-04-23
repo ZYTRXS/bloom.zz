@@ -127,7 +127,7 @@ end
 if true then
 	Bloom.Loader.Version = "Developers"
 	loadstring(Bloom.Functions.SecureGet("https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/src/dev_uibloom_v3.lua"))()
-	loadstring(Bloom.Functions.SecureGet("https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/src/dev_visuals_v2.lua"))()
+	loadstring(Bloom.Functions.SecureGet("https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/src/dev_visuals_v3.lua"))()
 	loadstring(Bloom.Functions.SecureGet("https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/src/skyboxes.lua"))()
 	loadstring(Bloom.Functions.SecureGet("https://raw.githubusercontent.com/ZYTRXS/bloom.zz/refs/heads/main/src/dev_mainbloom.lua"))()
 	--loadstring(Bloom.Functions.SecureGet("https://raw.githubusercontent.com/COPICALITY/Bloom-crimclone-/refs/heads/main/Main/Frameworks/Telemetry/Developers.lua"))()
